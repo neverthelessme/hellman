@@ -30,8 +30,8 @@ int main()
     B = compute(g, Xb, p);
     int keyA = compute(B, Xa, p);
     int keyB = compute(A, Xb, p);
-    printf("Public Key of A:%d\n",A);
-    printf("Public Key of B:%d\n",B);
+    printf("Public Key of A (Ya):%d\n",A);
+    printf("Public Key of B (Yb):%d\n",B);
     printf("Alice's secret key is %d\nBob's secret key is %d\n", keyA, keyB);
     return 0;
 }
